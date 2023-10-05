@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+    <div class="input">
+        <H1>Number of turns</H1>
+        <input type="tel" name="" id="noInput">
+       
+    </div>
+    <div class="buttons">
+        <button id="play">Play</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div class="choosen">
+       
+        <h3>Number of Rounds Left: <span id="roundsLeft">0</span></h3>
+        <h3 id="round-result">Round result:</h3>
+        <h3>Computer Point: <span id="computerPoint">0</span></h3>
+        <h3>User Point: <span id="userPoint">0</span> </h3>
+        <h3 >Computer Choosed : <span id="ComputerChoice">Nothing</span></h3>
+        <h3 id = 'gameResult'>Game Result</h3>
+    </div>
+    <div class="payButtons">
+       <button id="rock" onclick="pressed()">Rock</button>
+       <button id="paper" onclick="pressed()">Paper</button>
+       <button id="scissor" onclick="pressed()">Scissor</button>
+    </div>
+<script src="script.js"></script>
+ </div>   
+</body>
+</html>
